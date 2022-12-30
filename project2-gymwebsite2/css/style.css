@@ -1,0 +1,105 @@
+body {
+    /* font-family: 'Courier New', Courier, monospace; */
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('../image/image2.jpg');
+    height: 1283px;
+    width: 100%;
+
+}
+
+
+
+.left {
+    display: inline-block;
+
+    position: absolute;
+    top: 20px;
+    left: 41px;
+
+}
+
+.left div {
+    text-align: center;
+    line-height: 22 px;
+}
+
+.mid {
+
+    display: block;
+    width: 45%;
+    margin: 20px auto;
+
+    top: 10px;
+}
+
+.right {
+    position: absolute;
+    top: 20px;
+    right: 41px;
+
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar li a {
+    text-decoration: none;
+    padding: 23px 22px;
+    font-size: 23px;
+}
+
+.navbar li a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+.left img {
+    width: 95px;
+}
+
+.btn {
+    margin: 21px 34px;
+    border-radius: 10px;
+
+}
+
+.btn:hover {
+    background-color: beige;
+}
+
+.container {
+    margin: 120px 120px;
+    width: 400px;
+    padding: 30px 70px;
+
+    border-radius: 10px;
+}
+
+.form-group input {
+    display: block;
+    margin: 4px 34px;
+    padding: 10px 10px;
+    width: 300px;
+    border-radius: 5px;
+
+    font-size: medium;
+}
+
+.container h1 {
+    text-align: center;
+    color: blue;
+}
+
+.container button {
+    display: block;
+    width: 150px;
+    margin: 20px auto;
+
+}
